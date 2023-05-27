@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1567316106249-b2ecaeefdade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=801);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 35px 60px;
+}
+
+
+a{
+    color:#fff;
+    text-decoration:none;
+    transition: all 0.6s ease-out;
+}
+
+a:hover{
+    color:orange;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+#navbar .logo a{
+    font-size: 32px;
+    font-weight:bold;
+  
+
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap:24px;
+}
+
+.menu li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.get-started-btn{
+    background: blueviolet;
+    padding: 20px 25px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}

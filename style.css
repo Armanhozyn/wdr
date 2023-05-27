@@ -1,0 +1,90 @@
+.heading_one{
+    background: yellow;
+}
+
+.heading_two{
+    background: red;
+}
+
+.heading_three{
+    background: pink;
+}
+
+
+.heading_four{
+    background: orange;
+}
+
+.heading_style{
+    color: black;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.my_navigation{
+    background: red;
+}
+
+#my_navigation ul{
+    list-style: bengali;
+}
+
+.my_div{
+    width: 300px;
+    height: 300px;
+}
+
+.bg_red{
+    padding-left: 14px;
+    padding-top: 30px;
+    padding-right: 30px;
+    background: red;
+}
+
+.bg_yellow{
+    margin-top: 20px;
+    background: yellow;
+}
+
+.classico{
+   background: yellow;
+   width: 300px;
+   height: 200px;
+   overflow: auto;
+}
+
+.classico p{
+    width: 500px
+}
+
+.red{
+    background: red;
+    width: 200px;
+    height: 200px; 
+}
+
+.green{
+    background: green;
+    width: 200px;
+    height: 200px; 
+}
+
+.green_flex{
+    display: flex;
+    background: green;
+    width: 500px;
+    height: 200px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent_block{
+    width: 500px;
+    height: 400px;
+    background: red;
+}
+
+.children_element{
+    background: yellow;
+}
