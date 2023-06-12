@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#services .service_title h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#services .service_title h2::before{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: red;
+}
+
+#services .service_title h2::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: red;
+}
+
