@@ -1,47 +1,28 @@
-// let carname = "Toyota"; // string
-// let age = 30; //number
-// let color = undefined;
-// let brandname = null; 
-
-// console.log(carname); 
-// console.log(age);
-// console.log(color);
-// console.log(brandname);
-
-
-// OBJECTS
-
-let tower = {
-    color: "green",
-    size: 5,
-    flatNumber : 20,
-    room: {
-        color: "red",
-        size: 220
-    }
-}
-
-// Access Object By Dot Notation
-// console.log(tower.room.size);
-
-// Access Object by Index
-// let indexOfObject = "color";
-// console.log(tower["room"]["color"]);
-
-
-// let cart = ["soap","ice-cream","facewash",20,null];
-
-// console.log(cart[2]);
-
-
-
-function addTextToTitle(myId){ // argument
-    let titleText =  "<p> We are Learning Javascript Basic </p>"
-    document.getElementById(myId).innerHTML = titleText;
-}
-
-addTextToTitle("title"); // parameter
+//  var company_name = "Well-up";
  
-addTextToTitle("titletwo");
+// //  var logo = "<h1 style='color:red'>"+company_name+"</h1> <h1 style='color:blue'>"+company_name +"</h1> <h1 style='color:yellow'>"+company_name+"</h1>";
+//  var logo = `
+//     <h1 style='color:red'>${company_name}</h1>
+//     <h1 style='color:blue'>${company_name}</h1> 
+//     <h1 style='color:yellow'>${company_name}</h1>`;
 
-addTextToTitle("titlethree");
+// //  console.log(logo)
+
+// var tom = "Tom";
+// var jerry = "Jerry";
+
+// var title = tom + " and " + jerry;
+ 
+// console.log(title);
+
+// document.getElementById('title').innerHTML = logo; 
+
+var email = prompt("Enter your email");
+if(email == 'utfola@gmail.com'){
+    var message = "Thanks for login !!";
+    alert(message);
+}else{
+    var message = "You are not a valid user!!";
+    alert(message);
+}
+  
