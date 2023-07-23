@@ -50,26 +50,50 @@
 
 // mone kori
 
-var total_post = 100;
+// var total_post = 100;
 
-var num = 0
+// var num = 0
 
-while (num < total_post) {
-    num = num + 2;
-    console.log(num);
-}
+// while (num < total_post) {
+//     num = num + 2;
+//     console.log(num);
+// }
 
 
-var country = ['brazil','argentina','usa'];
-console.log(country);
+// var country = ['brazil','argentina','usa'];
+// console.log(country);
 
-country.push('canada');
-console.log(country)
+// country.push('canada');
+// console.log(country)
 
-country.unshift();
-country.pop();
-country.shift();
-console.log(country)
+// country.unshift();
+// country.pop();
+// country.shift();
+// console.log(country)
+
+
+let board = `{
+    "color": "white",
+    "width": "10ft",
+    "height": "12ft",
+    "wight": "2kg"
+}`
+
+let boardJson = JSON.parse(board);
+console.log(boardJson.color); 
+
+
+
+
+
+
+
+
+
+ 
+
+
+    
 
 
 
