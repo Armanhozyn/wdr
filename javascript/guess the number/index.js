@@ -1,8 +1,11 @@
 let random_number = generateNumber();
+let guess = [];
+
+console.log(guess);
 
 function generateNumber(){
-    let generated_number = Math.random() * 100; // 20.24234
-    let exact_random_number = Math.floor(generated_number); // 20
+    let generated_number = Math.random() * 100; // 0.2324234 * 100 = 23.24234 
+    let exact_random_number = Math.floor(generated_number); // 23
 
     return exact_random_number;
 }
@@ -33,6 +36,28 @@ function play(){
  
        document.getElementById("result").innerHTML = msg;
     }  
-}
 
+    guess.push(guessing_number) 
+
+    let i = 0; // i = 0
+    let list = `<ul class="list-group">`; //template literale
+    while(i < guess.length ){
+        list = list +   `<li class="list-group-item">${guess[i]}</li>`;
+
+        i++;
+    }
+    list += "</ul>";
+    document.getElementById('history').innerHTML = list;
+
+}
+ 
+document.getElementById('restart-game').addEventListener("click",reset)
+
+function reset(){
+    document.getElementById('result').innerHTML = "";
+    document.getElementById('history').innerHTML = "";
+    guess = [];
+    random_number = generateNumber();  
+    document.getElementById('guessNumber').value = ""
+}
 
