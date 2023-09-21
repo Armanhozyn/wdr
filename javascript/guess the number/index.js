@@ -9,8 +9,6 @@ function generateNumber(){
 
     return exact_random_number;
 }
-
-console.log(random_number)
 document.getElementById('submit-number').addEventListener("click",play)
 
 function play(){
@@ -60,4 +58,6 @@ function reset(){
     random_number = generateNumber();  
     document.getElementById('guessNumber').value = ""
 }
+
+
 
